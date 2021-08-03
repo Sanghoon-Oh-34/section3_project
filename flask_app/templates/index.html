@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cinema Station</title>
+        <link rel='stylesheet' href="{{ url_for('static', filename='/main.css')}}">
+    </head>
+    <body>
+        <header>
+            <div class='contatiner'>
+                <strong><nav>
+                    <ul class='menu'>
+                        <li class='menu_item'><a href="{{ url_for('main.home')}}">Home</a></li>
+                        <li class='menu_item'><a href="{{ url_for('main.search')}}">Search</a></li>
+                    </ul>
+                </nav></strong>
+            </div>
+        </header>
+
+        {% block content %}
+        {% endblock %}
+
+    </body>
+</html>

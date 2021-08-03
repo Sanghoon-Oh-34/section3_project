@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+}
+
+header {
+  margin-top: 70px;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: darkslategrey;
+  list-style-type: none;
+  position: fixed;
+  top: 0;
+}
+
+.menu_item {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.menu_item a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+.menu_item:hover {
+  background-color: grey;
+}
+
+.main_page img {
+  width: 50%;
+  height: 50%;
+}
